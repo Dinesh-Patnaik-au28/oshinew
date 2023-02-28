@@ -2,11 +2,11 @@ import Timer from "./Timer";
 const EventCard = (props) => {
   return (
     <>
-      <div className="mx-auto px-2 py-3 bg-white overflow-hidden  transform transition duration-500 hover:scale-105 hover:bg-slate-200 flex justify-center items-center">
+      <div className="mx-auto px-2 py-3 bg-white overflow-hidden transform transition duration-500 hover:scale-105 hover:bg-slate-200 flex justify-center items-center mr-5">
         <div className="md:flex">
-          <div className="md:shrink-1 md:flex xs:mx-5 xs:my-5">
+          <div className="md:shrink-0 md:flex xs:mx-5 xs:my-5 xs:shrink-1">
             <img
-              className="rounded-lg object-cover w-auto md:h-full md:w-48 lg:w-56"
+              className="w-full rounded-lg object-cover md:h-full md:w-48 lg:w-56"
               src="https://source.unsplash.com/random/1900x1080/?,landscape"
               alt="event"
             />
