@@ -6,7 +6,7 @@ import bgImage from "../../assets/images/banner.jpg"
 import socialImage from "../../assets/images/social-life.jpg"
 import politicsImage from "../../assets/images/politics.jpg"
 import foodImage from "../../assets/images/food.jpg"
-import blogs from "../BlogsPage/blogs.json"
+import blogs from "./blogs.json"
 
 
 
