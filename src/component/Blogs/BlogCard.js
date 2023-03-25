@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card } from "@mui/material";
+import { Box } from "@mui/material";
 import { PersonOutline, CalendarMonthOutlined, VisibilityOutlined, ChatBubbleOutline } from "@mui/icons-material";
 
 

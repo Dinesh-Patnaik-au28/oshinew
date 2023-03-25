@@ -3,20 +3,21 @@ import { Routes, Route } from 'react-router-dom';
 import About from './component/About';
 import Home from './component/Home';
 import Contact from './component/Contact';
-import Blogs from "./pages/Blogs/Blogs";
+import Events from "./component/Event-Pages/Events";
+import Blogs from "./component/Blogs/Blogs";
 
 function App() {
   return (
     <div>
-      {/* <h2 className="text-3xl font-bold underline">Welcome to React</h2> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/blogs' element={<Blogs />} />
+        <Route path='/events' element={<Events />} />
       </Routes>
     </div>
   )
 }
+export default App;
 
-export default App
