@@ -11,14 +11,17 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      width: {
+        '90': '22.5rem',
+      }
     },
     screens: {
-      xs: "480px",
-      ss: "620px",
-      sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      xs: {max: "480px"},
+      ss: {max: "620px"},
+      sm: {max: "768px"},
+      md: {max: "1060px"},
+      lg: {max: "1200px"},
+      xl: {max: "1700px"},
     },
   },
   plugins: [],

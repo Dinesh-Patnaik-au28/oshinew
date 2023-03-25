@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pagination-btn:hover {
+    background-color: limegreen;
+}
+.focused-btn {
+    background-color: limegreen;
+}
